@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: red;
+   /* border-bottom: 1px solid rgb(248, 232, 232); */
+   padding: 22px 0px;
+   padding-left: 7px;
+
+}
+
+.css-list h2 {
+    color: rgb(88, 241, 88);
+    font-style: italic; /* Correct way to make text italic */
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+.css-list li{
+    padding-left: 32px;
+    margin-bottom: 18px;
+}
+.css-list li:last-child{
+    text-decoration: underline;
+    font-style: italic;
+}
+.css-list li .span-bg{
+    background-color: yellow;
+}
+.span-text-decoration{
+    text-decoration: line-through;
+}
+.second-text-list .p1{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    margin-top: 20px;
+    padding-left: 8px;
+    margin-bottom: 50px;
+    word-spacing: 2px;
+}
+.second-text-list ul{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.second-text-list ul li{
+    letter-spacing: 5px;
+    color: green;
+    word-spacing: 3px;
+    margin-bottom: 1px;
+  
+}
+.span-text-decoration-2{
+    font-weight: bold;
+    background-color: yellow;
+}
+.second-text-list .p2{
+  color: green;
+  font-size: 18px;
+  margin-top: 20px;
+
+  margin-left: 10px;
+}
+.second-text-list .p3{
+    margin-left: 10px; 
+    font-size: 10px;
+    margin-top: 20px;
+    color: red;
+      
+}
+.second-text-list .p4{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.second-text-list .p5{
+    margin-left: 10px;
+    margin-top: 15px;
+  
+    color: red;
+    background-color: yellow;
+ 
+}
+.last-line{
+    margin-bottom: 8px;
+}
