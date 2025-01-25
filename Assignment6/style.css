@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    height: 100vh;
+    background-image:url(./image/shara\ desert.jpg);
+
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+
+}
+.nav-container{
+
+padding-top: 50px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+
+}
+.logo{
+    height: 50px;
+    width: 40px;
+}
+
+.menu{
+    height: 20px;
+    width:20px;
+    margin-left: 2px;
+}
+.text-container{
+    height: 400px;
+    width: 650px;
+ 
+    margin-left: 80px;
+}
+.nav-container {
+    padding:20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+.nav-container a{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 20px;
+    
+
+}
+.text-container p{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 130px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+.text-container h6{
+    margin-bottom: 20px;
+    color:white
+}
+.text-container button{
+    background-color: whitesmoke;
+    padding: 7px 30px;
+    border-radius:10px;
+    border: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+/* 
+.image-container{
+
+    height: 400px;
+    width: 500px;
+margin-left: 20px;
+    background-color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.inner-image-box{
+height: 200px;
+width: 200px;
+
+
+padding: 10px;
+background-color: red;
+border-radius: 20px;
+
+
+} */
+
+.image-container{
+    height: 200px;
+    width: 400px;
+margin-left: 20px;
+  
+    flex-direction: row;
+    margin-bottom: 10px;
+  
+   
+}
+.image-container .box-1{
+    display: flex;
+    height: 200px;
+    width: 400px;
+    
+  flex-direction: column;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.inner-imag-head-text{
+color:white;
+padding-top: 20px;
+margin-bottom: 5px;
+padding-left: 5px;
+}
+.inner-imag-child-text{
+    padding-left: 5px;
+    color:  white !important;
+
+}
+.images-1{
+ background-image: url("./image/pic-1.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.images-2{
+    background-image: url("./image/pic-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .images-3{
+    background-image: url("./image/pic-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .images-4{
+    background-image: url("./image/pic-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
